@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onairam Mariano | Cuestionador de certezas</title>
+    <meta name="description" content="Cuestionador de certezas y agente de transformación creativa. Desmantelo verdades absolutas para que la incertidumbre se convierta en tu motor de innovación.">
+    <meta property="og:title" content="Onairam Mariano">
+    <meta property="og:description" content="Donde la verdad termina y la creatividad comienza.">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2D3436;
+            --accent-color: #FF4757;
+            --background-color: #FDFDFD;
+            --text-color: #1A1A1A;
+            --font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font-family);
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 0 20px;
+        }
+
+        header { padding: 40px 0; text-align: center; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        
+        /* Hero */
+        .hero { padding: 80px 0; text-align: center; }
+        .hero h1 { font-size: 3rem; font-weight: 800; color: var(--primary-color); margin-bottom: 20px; line-height: 1.2; }
+        .hero p { font-size: 1.25rem; margin-bottom: 30px; color: #555; }
+        .cta-btn { 
+            display: inline-block; padding: 15px 30px; background: var(--accent-color); 
+            color: white; text-decoration: none; font-weight: 700; border-radius: 5px; transition: 0.3s;
+        }
+        .cta-btn:hover { opacity: 0.9; transform: translateY(-2px); }
+
+        /* Sections */
+        section { padding: 60px 0; border-top: 1px solid #eee; }
+        h2 { font-size: 2rem; margin-bottom: 30px; color: var(--primary-color); }
+        .about-text { margin-bottom: 20px; font-size: 1.1rem; }
+
+        /* Projects */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .project-card { 
+            padding: 30px; border: 2px solid var(--primary-color); 
+            transition: 0.3s; background: white;
+        }
+        .project-card:hover { border-color: var(--accent-color); }
+        .project-card h3 { color: var(--accent-color); margin-bottom: 15px; }
+        .highlight { font-weight: 800; display: block; margin-top: 15px; }
+
+        footer { text-align: center; padding: 40px; font-size: 0.9rem; color: #888; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav><strong>Onairam Mariano</strong></nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>Cuestionador de certezas y agente de transformación creativa.</h1>
+                <p>Desmantelo verdades absolutas para que la incertidumbre se convierta en tu motor de innovación.</p>
+                <a href="#contacto" class="cta-btn">Desafía tu realidad</a>
+            </section>
+
+            <section id="sobre-mi">
+                <h2>Sobre mí</h2>
+                <p class="about-text">Me defino como un oxímoron viviente: habito la contradicción para encontrar fisuras en lo establecido. Mi propósito no es darte respuestas cómodas, sino destruir las certezas rígidas que limitan tu capacidad de pensar fuera del molde.</p>
+                <p class="about-text">No me interesa la superficie. Mi trabajo consiste en desarticular los dogmas que sostienen tu statu quo, empujándote hacia un territorio donde el pensamiento crítico florece ante la ausencia de verdades absolutas.</p>
+                <p class="about-text">Bienvenido a un espacio donde la estabilidad es el enemigo. Aquí, la incertidumbre no es un vacío, es el lienzo donde rediseñamos tu forma de ver el mundo, transformando la duda en el arma más poderosa de tu creatividad.</p>
+            </section>
+
+            <section id="proyectos">
+                <h2>Proyectos</h2>
+                <div class="grid">
+                    <article class="project-card">
+                        <h3>La Parca de las Certezas</h3>
+                        <p>Una intervención filosófica donde identifico y desmantelo los dogmas y creencias rígidas de individuos y grupos.</p>
+                        <span class="highlight">El fin de tus dogmas comienza aquí.</span>
+                    </article>
+                    <article class="project-card">
+                        <h3>Tocando la Realidad</h3>
+                        <p>Un ejercicio de choque cultural y mental diseñado para poner en jaque las convicciones personales a través de la interacción directa.</p>
+                        <span class="highlight">Interacción radical para despertar tu percepción.</span>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Onairam Mariano: Donde la verdad termina y la creatividad comienza.</p>
+            <p><a href="http://onairam.com">onairam.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
